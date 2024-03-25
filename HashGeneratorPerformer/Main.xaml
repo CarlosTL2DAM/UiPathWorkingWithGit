@@ -122,7 +122,7 @@
           <av:PointCollection x:Key="ConnectorLocation">300,142.5 300,192.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction Item" FolderPath="carlostorreslinan@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="PointsTracker_Queue" TransactionItem="[TransactionItem]">
+      <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction  Item" FolderPath="carlostorreslinan@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="PointsTracker_Queue" TransactionItem="[TransactionItem]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -138,7 +138,7 @@
               <av:PointCollection x:Key="ConnectorLocation">300,217.5 300,267.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <If Condition="[TransactionItem isnot Nothing]" sap:VirtualizedContainerService.HintSize="546,2397" sap2010:WorkflowViewState.IdRef="If_2">
+          <If Condition="[TransactionItem isnot Nothing]" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="If_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -167,7 +167,7 @@
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6MzTw6dlyFHsVP1myF_QdJUNEVBUlpORDJYMFozSDRYMzJMV1JHTTAxVS4u" CvElementArea="759, 714, 1096, 55" CvType="InputBox" DesignTimeRectangle="759, 718, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='-ad-61' placeholder='Escriba su respuesta' aaname='' /&gt;" Guid="2a887489-d58c-4648-be6e-3de5dbc1feb0" InformativeScreenshot="ebfaae0bfcd85a7599b60b006a09130c.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Points Tracker' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                   <uix:Target CvTextArea="756, 661, 81, 22" CvTextArgument="Sender" CvType="Text" DesignTimeRectangle="758, 654, 78, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Sender' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Sender' tag='SPAN' type='' class='text-format-content ' check:innerText='Sender' /&gt;" SearchSteps="FuzzySelector, CV" />
                                 </scg:List>
                               </uix:TargetAnchorable.Anchors>
@@ -178,7 +178,7 @@
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6MzTw6dlyFHsVP1myF_QdJUNEVBUlpORDJYMFozSDRYMzJMV1JHTTAxVS4u" CvElementArea="753, 933, 1102, 57" CvType="InputBox" DesignTimeRectangle="759, 937, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r740f037016614f2288fd26a12ca8acd4 QuestionInfo_r740f0*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r740f037016614f2288fd26a12ca8acd4 QuestionInfo_r740f0*' tag='INPUT' type='' class='-ad-61' placeholder='Escriba su respuesta' aaname='' /&gt;" Guid="a75c87cb-a77a-4414-a098-f8cc8907b682" InformativeScreenshot="09480bc40e87dd4b1810c0d327eb85d8.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Points Tracker' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                   <uix:Target CvTextArea="757, 880, 96, 22" CvTextArgument="Receiver" CvType="Text" DesignTimeRectangle="758, 873, 93, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Receiver' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Receiver' tag='SPAN' type='' class='text-format-content ' check:innerText='Receiver' /&gt;" SearchSteps="FuzzySelector, CV" />
                                 </scg:List>
                               </uix:TargetAnchorable.Anchors>
@@ -189,7 +189,7 @@
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6MzTw6dlyFHsVP1myF_QdJUNEVBUlpORDJYMFozSDRYMzJMV1JHTTAxVS4u" CvElementArea="754, 851, 1101, 58" CvType="InputBox" DesignTimeRectangle="759, 856, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r328617e9f9e34d06acbfb57d0e97ba82 QuestionInfo_r32861*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r328617e9f9e34d06acbfb57d0e97ba82 QuestionInfo_r32861*' tag='INPUT' type='' class='-ad-61' placeholder='Escriba su respuesta' aaname='' /&gt;" Guid="3685cddc-4a82-446f-8d84-f15fdba429a8" InformativeScreenshot="4cabbd86430aea391b35bd681ec1e701.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Points Tracker' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                   <uix:Target CvTextArea="757, 798, 67, 24" CvTextArgument="Points" CvType="Text" DesignTimeRectangle="758, 792, 68, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Points' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Points' tag='SPAN' type='' class='text-format-content ' check:innerText='Points' /&gt;" SearchSteps="FuzzySelector, CV" />
                                 </scg:List>
                               </uix:TargetAnchorable.Anchors>
@@ -212,7 +212,7 @@
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="https://emn178.github.io/online-tools/sha256.html" CvTextArea="1090, 804, 66, 24" CvTextArgument="Input" CvType="Text" DesignTimeRectangle="442, 657, 1365, 315" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='input' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='input' tag='TEXTAREA' type='' class='' placeholder='Input' aaname='' /&gt;" Guid="ef76a81d-04f3-4715-b4ff-a86b32770d6e" InformativeScreenshot="bcf1a23d0c63fb2647bec04f4e5b5aa0.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA256 - Online Tools' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                           <uix:Target CvTextArea="453, 604, 112, 25" CvTextArgument="Input Type" CvType="Text" DesignTimeRectangle="454, 602, 112, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Input Type' check:innerText='Input Type' /&gt;" SearchSteps="FuzzySelector, CV" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
@@ -223,7 +223,7 @@
                                   <uix:NGetText.Target>
                                     <uix:TargetAnchorable BrowserURL="https://emn178.github.io/online-tools/sha256.html" CvTextArea="1083, 1324, 81, 25" CvType="AnyWordGroup" DesignTimeRectangle="442, 1179, 1365, 315" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='output' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='output' tag='TEXTAREA' type='' class='' placeholder='Output' aaname='' /&gt;" Guid="75b1c914-6264-441a-93a9-728cacf34b82" InformativeScreenshot="35935c31f6babf50fb55e9ec02eae1cf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA256 - Online Tools' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                           <uix:Target CvElementArea="989, 1102, 93, 55" CvTextArea="1011, 1119, 49, 19" CvTextArgument="Hash" CvType="Button" DesignTimeRectangle="993, 1105, 87, 50" ElementType="Button" FullSelectorArgument="&lt;webctrl id='execute' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='execute' tag='BUTTON' type='' class='btn btn-default' aaname='Hash' check:innerText='Hash' /&gt;" SearchSteps="FuzzySelector, CV" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
@@ -247,7 +247,7 @@
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6MzTw6dlyFHsVP1myF_QdJUNEVBUlpORDJYMFozSDRYMzJMV1JHTTAxVS4u" CvElementArea="755, 1086, 1100, 57" CvType="InputBox" DesignTimeRectangle="759, 1090, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r86173fbeea2e4007b2ebefe149f47293 QuestionInfo_r86173*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r86173fbeea2e4007b2ebefe149f47293 QuestionInfo_r86173*' tag='INPUT' type='' class='-ad-61' placeholder='Escriba su respuesta' aaname='' /&gt;" Guid="29021ea6-1b8a-4b59-a922-8e44712d314c" InformativeScreenshot="99ea0ef2710ae4eea971b94e944d47ca.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Points Tracker' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                   <uix:Target CvTextArea="756, 1033, 27, 22" CvTextArgument="ID" CvType="Text" DesignTimeRectangle="758, 1026, 24, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='ID' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='ID' tag='SPAN' type='' class='text-format-content ' check:innerText='ID' /&gt;" SearchSteps="FuzzySelector, CV" />
                                 </scg:List>
                               </uix:TargetAnchorable.Anchors>
@@ -258,7 +258,7 @@
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6MzTw6dlyFHsVP1myF_QdJUNEVBUlpORDJYMFozSDRYMzJMV1JHTTAxVS4u" CvElementArea="726, 1222, 132, 64" CvTextArea="763, 1243, 61, 21" CvTextArgument="Enviar" CvType="Button" DesignTimeRectangle="729, 1224, 129, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl class='css-196' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl class='css-196' tag='BUTTON' type='' aaname='Enviar' check:innerText='Enviar' /&gt;" Guid="96f5d218-f5d0-43ac-b24b-ae1caf6ca719" InformativeScreenshot="82a76c99e57f4f8a760c0926dc0ff0fa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Points Tracker' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                   <uix:Target CvTextArea="727, 1317, 379, 16" CvTextArgument="No revele nunca su contrasena. Notificar abuso" CvType="Text" DesignTimeRectangle="729, 1314, 1155, 25" FullSelectorArgument="&lt;webctrl class='-a-203' parentid='form-main-content1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='-a-203' parentid='form-main-content1' tag='DIV' type='' aaname='No revele nunca su contraseña.' check:innerText='No revele nunca su contraseña.Notificar abuso' /&gt;" SearchSteps="FuzzySelector, CV" />
                                 </scg:List>
                               </uix:TargetAnchorable.Anchors>
@@ -269,7 +269,7 @@
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6MzTw6dlyFHsVP1myF_QdJUNEVBUlpORDJYMFozSDRYMzJMV1JHTTAxVS4u" CvTextArea="1182, 900, 193, 25" CvTextArgument="Enviar otra respuesta" CvType="Text" DesignTimeRectangle="1182, 896, 194, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Enviar otra respuesta' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Enviar otra respuesta' tag='SPAN' type='' class='' check:innerText='Enviar otra respuesta' /&gt;" Guid="c7a2049e-fb1d-4a7b-8935-67fd1cd004ff" InformativeScreenshot="6ca95c2a6e7f544cbf3796bf98dda8d8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Points Tracker' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                   <uix:Target CvTextArea="1092, 795, 372, 27" CvTextArgument="La respuesta se ha enviado." CvType="Text" DesignTimeRectangle="1093, 787, 372, 42" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='La respuesta se ha enviado.' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='La respuesta se ha enviado.' tag='SPAN' type='' class='text-format-content ' check:innerText='La respuesta se ha enviado.' /&gt;" SearchSteps="FuzzySelector, CV" />
                                 </scg:List>
                               </uix:TargetAnchorable.Anchors>
@@ -326,10 +326,7 @@
                 </sap:WorkflowViewStateService.ViewState>
               </ui:ShouldStop>
               <FlowStep.Next>
-                <FlowDecision x:Name="__ReferenceID3" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
-                  <FlowDecision.Condition>
-                    <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="ShouldStop or TransactionItem is Nothing" />
-                  </FlowDecision.Condition>
+                <FlowDecision x:Name="__ReferenceID3" Condition="[ShouldStop or TransactionItem is Nothing]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -345,6 +342,7 @@
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">10,377.5</av:Point>
                           <av:Size x:Key="ShapeSize">200,25</av:Size>
+                          <av:PointCollection x:Key="ConnectorLocation">110,402.5 110,452.5</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;ENDs&quot;]">
@@ -354,6 +352,23 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:LogMessage>
+                      <FlowStep.Next>
+                        <FlowStep x:Name="__ReferenceID5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <av:Point x:Key="ShapeLocation">10,452.5</av:Point>
+                              <av:Size x:Key="ShapeSize">200,25</av:Size>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message - GIT" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Gits&quot;]">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:LogMessage>
+                        </FlowStep>
+                      </FlowStep.Next>
                     </FlowStep>
                   </FlowDecision.True>
                   <FlowDecision.False>
@@ -370,5 +385,6 @@
     <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID3</x:Reference>
     <x:Reference>__ReferenceID4</x:Reference>
+    <x:Reference>__ReferenceID5</x:Reference>
   </Flowchart>
 </Activity>
